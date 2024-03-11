@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bingo</title>
+    <script src="search.js" defer></script>
+  </head>
+  <body>
+    <div class="search-wrapper">
+      <label for="search">search resorts</label>
+      <input type="search" id="search" />
+    </div>
+    <div class="user-cards" data-resort-cards-container></div>
+    <template resort-template>
+      <div class="card">
+        <div class="header" data-header></div>
+        <div class="body" data-body></div>
+      </div>
+    </template>
+  </body>
+</html>
